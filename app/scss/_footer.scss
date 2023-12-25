@@ -1,6 +1,45 @@
 footer {
+    margin-top: 6em;
+
     .icons-list {
+        margin: 0 auto;
+        padding: 0;
         display: flex;
+        justify-content: center;
         gap: 1em;
+
+        .list-link {
+            border: solid 1px $pale-blue;
+            border-radius: 50%;
+            width: 15px;
+            padding: 10px;
+            text-align: center;
+            color: $blue;
+            transition: .25s;
+
+            &:hover {
+                color: #FFF;
+                background-color: $blue;
+            }
+        }
+
+        #facebook {
+            padding: 5px;
+        }
+
+        #twitter {
+            padding: 1px;
+        }
+
+        #instagram {
+            padding: 2px;
+        }
+    }
+
+    .copyright {
+        margin-top: 3em;
+        font-size: .5rem;
+        color: $gray;
+        text-align: center;
     }
 }
