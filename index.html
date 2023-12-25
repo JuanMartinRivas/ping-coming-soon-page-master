@@ -8,10 +8,42 @@
   <link rel="stylesheet" href="./app/scss/style.scss" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script type="module" src="./app/js/app.js"></script>
+  <script src="https://kit.fontawesome.com/311c91c766.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h1>Hello, World!</h1>
+  <main>
+    <section class="header">
+      <div class="container">
+        <img src="images/logo.svg" alt="Ping logo" class="logo">
+        <h1 class="title">We are launching <span class="thick">soon!</span></h1>
+        <p class="text">Subscribe and get notified</p>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container">
+        <form action="#">
+          <input type="email" placeholder="Your email adress...">
+          <button class="form-btn">Notify Me</button>
+        </form>
+      </div>
+    </section>
+    <section class="img">
+      <div class="container">
+        <img src="images/illustration-dashboard.png" alt="Illustration" class="main-image">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <ul role="list" class="icons-list">
+        <li class="list-item"><a href="#" class="list-link"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="list-item"><a href="#" class="list-link"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="list-item"><a href="#" class="list-link"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </footer>
 
   <!-- <footer>
     <p class="attribution">

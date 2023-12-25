@@ -2,10 +2,9 @@ html {
   font-size: 20px;
 }
 
-h1 {
-  background-color: $very-dark-blue;
-  color: $pale-blue;
-  font-family: 'Libre Franklin', sans-serif;
+a,
+a:visited {
+  color: inherit;
 }
 
 .container {
@@ -21,4 +20,9 @@ h1 {
   @media(min-width: 900px) {
     flex-direction: row;
   }
+}
+
+.icons-list{
+  display: flex;
+  justify-content: space-between;
 }
