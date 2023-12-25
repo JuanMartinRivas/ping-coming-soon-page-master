@@ -17,18 +17,41 @@ main {
                 color: #000;
                 font-weight: 700;
             }
+
+            @media(min-width: 900px) {
+                font-size: 1.75rem;
+            }
         }
 
         .text {
             margin-top: 1.75em;
             font-size: .75rem;
             text-align: center;
+
+            @media(min-width: 900px) {
+                font-size: 1rem;
+            }
         }
     }
 
     .form-section {
         margin-top: 1.75em;
         margin-bottom: 3.25em;
+
+        .form {
+            gap: .5em;
+
+            @media(min-width: 900px) {
+                .col-left {
+                    width: 65%;
+                }
+
+                .col-right {
+                    width: 35%;
+                }
+            }
+
+        }
 
         .email {
             width: 100%;
@@ -51,7 +74,6 @@ main {
         .submit-btn {
             width: 100%;
             padding: 1em 2em;
-            margin-top: 1em;
             cursor: pointer;
             font-size: .75rem;
             font-weight: 600;

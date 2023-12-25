@@ -15,6 +15,10 @@ a:visited {
   margin: 0 auto;
   width: 80%;
   max-width: 1200px;
+
+  @media(min-width: 900px) {
+    width: 45%;
+  }
 }
 
 .row {
