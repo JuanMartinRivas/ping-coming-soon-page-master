@@ -8,10 +8,10 @@ submitButton.addEventListener('click', displayErr);
 function displayErr() {
 
     if (email.validity.typeMismatch) {
-        email.setCustomValidity("Please provide a valid email address");
+        errorMessage.textContent = "Please provide a valid email address";
     } else if (email.value.length === 0) {
-        email.setCustomValidity("Whoops! It looks like you forgot to add your email");
+        errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
     } else {
-        email.setCustomValidity("");
+        errorMessage.textContent = "";
     }
 }
