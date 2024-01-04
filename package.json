@@ -1,9 +1,12 @@
 {
     "name": "landing-page",
     "source": "index.html",
+    "homepage": "https://juanmartinrivas.github.io/ping-coming-soon-page-master",
+    
     "scripts": {
         "start": "parcel",
-        "build": "parcel build"
+        "build": "parcel build",
+        "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
         "@parcel/transformer-sass": "^2.10.3",
