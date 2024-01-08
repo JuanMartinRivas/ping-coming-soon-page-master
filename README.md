@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub?share=true)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ping-single-column-comming-soon-page-MXIo8_ECp-)
 - Live Site URL: [Site](https://juanmartinrivas.github.io/ping-coming-soon-page-master/)
 
 ## My process
